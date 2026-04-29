@@ -1,0 +1,45 @@
+name: cognito_app
+description: "Cognito Insights — Internal Company Management Platform"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.0.5
+  http: ^1.2.0
+  google_fonts: ^6.1.0
+  fl_chart: ^0.66.0
+  uuid: ^4.3.3
+  camera: ^0.10.5+9
+  shared_preferences: ^2.3.2
+  intl: ^0.20.2
+  image: ^4.1.7
+  tflite_flutter: ^0.10.4
+  google_mlkit_face_detection: ^0.13.0
+  device_info_plus: ^11.3.0
+  image_picker: ^1.2.1
+  file_picker: ^11.0.2
+  video_player: ^2.11.1
+  syncfusion_flutter_pdfviewer: ^31.1.21
+  path_provider: ^2.1.5
+  open_filex: ^4.7.0
+  url_launcher: ^6.3.2
+  supabase_flutter: ^2.12.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/employees/
