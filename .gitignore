@@ -1,0 +1,48 @@
+# === OS Generated ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# === IDE / Editor ===
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# === Node.js (backend) ===
+node_modules/
+package-lock.json
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+.env
+
+# === Flutter / Dart ===
+cognito_app/.dart_tool/
+cognito_app/.flutter-plugins
+cognito_app/.flutter-plugins-dependencies
+cognito_app/.pub-cache/
+cognito_app/.pub/
+cognito_app/.metadata
+cognito_app/build/
+
+# === Platform Build Artifacts ===
+cognito_app/android/.gradle/
+cognito_app/android/app/build/
+cognito_app/android/local.properties
+cognito_app/android/key.properties
+cognito_app/ios/Pods/
+cognito_app/ios/.symlinks/
+cognito_app/ios/Flutter/Generated.xcconfig
+cognito_app/macos/Flutter/ephemeral/
+cognito_app/macos/Pods/
+cognito_app/windows/flutter/ephemeral/
+cognito_app/linux/flutter/ephemeral/
